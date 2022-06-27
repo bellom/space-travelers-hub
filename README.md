@@ -2,6 +2,8 @@
 
 >  Space Travelers' Hub is to a web application for a company that provides commercial and scientific space travel services. This application allows users to book rockets and join selected space missions.
 
+## Live demo 
+
 ## Features
 - Uses real live data from the SpaceX API.
 - Book Rockets.

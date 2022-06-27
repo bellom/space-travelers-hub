@@ -1,4 +1,4 @@
-import { createAsyncThunk, createSlice, current } from '@reduxjs/toolkit';
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 // import axios from 'axios';
 
@@ -36,9 +36,7 @@ const missionsSlice = createSlice({
   extraReducers: {
     [fetchMissions.pending]: () => {
     },
-    [fetchMissions.fulfilled]: (state, action) => {
-      return action.payload;
-    },
+    [fetchMissions.fulfilled]: (state, action) => action.payload,
 
   },
 
